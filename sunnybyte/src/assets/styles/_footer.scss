@@ -1,0 +1,136 @@
+.footer {
+  background-color: #222222;
+  color: #929292;
+  width: 100%;
+
+  #logo {
+    color: #7b6c63;
+    margin-bottom: 32px;
+  }
+
+  &__wrapper {
+    padding: 56px 0 80px;
+    max-width: 1230px;
+    margin: 0 auto;
+  }
+
+  &__header {
+    color: #c2c2c2;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+  }
+
+  &__info {
+    width: 278px;
+    p {
+      font-size: 14px;
+      margin-bottom: 32px;
+      line-height: 24px;
+    }
+  }
+
+  &__address {
+    color: #929292;
+    width: 272px;
+    p {
+      font-size: 14px;
+      line-height: 24px;
+      margin-bottom: 52px;
+    }
+    .fa {
+      margin-right: 10px;
+    }
+    span {
+      font-size: 14px;
+    }
+  }
+}
+
+.post {
+  &__date {
+    color: #5f5f5f;
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  &__title {
+    color: #929292;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
+
+.tweet {
+  &__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  &__post {
+    color: #5f5f5f;
+    font-size: 10px;
+  }
+  &__handle {
+    color: #7b6c63;
+    font-size: 14px;
+  }
+  &__text {
+    color: #929292;
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #393939;
+  padding-bottom: 26px;
+}
+
+.rights {
+  background-color: #1c1c1c;
+  color: #595959;
+  font-size: 16px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+  .footer {
+    width: 100%;
+    padding: 20px;
+
+    #logo {
+      font-size: 2em;
+      margin-bottom: 32px;
+    }
+
+    &__wrapper {
+      max-width: 100%;
+    }
+
+    &__info {
+      margin-bottom: 2em;
+      width: 100%;
+      font-size: 1em;
+    }
+
+    &__address {
+      width: 100%;
+
+      span {
+        margin-bottom: 1em;
+      }
+    }
+  }
+
+  .post {
+    margin-bottom: 2em;
+  }
+
+  .tweet {
+    margin-bottom: 2em;
+  }
+}

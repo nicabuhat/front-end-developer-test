@@ -1,0 +1,23 @@
+{
+  "name": "sunnybyte",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.pug --open",
+    "build": "parcel build src/index.pug --public-url ./"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Nicaela Cabuhat",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.6.2",
+    "@parcel/transformer-sass": "^2.6.2",
+    "autoprefixer": "^10.4.10",
+    "parcel": "^2.6.2",
+    "postcss": "^8.4.16",
+    "pug": "^3.0.2",
+    "tailwindcss": "^3.1.8"
+  }
+}
